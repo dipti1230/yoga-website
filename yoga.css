@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color:#315f52;
+}
+.container{
+    
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    padding: 5px 4px;
+
+}
+h1, h3{
+    text-align: center;
+    padding: 5px 4px;
+    
+}
+h1{
+    color: greenyellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+}
+h3{
+    color: honeydew;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.box{
+    
+    display: block;
+    width: 80%;
+    margin: 12px auto;
+    padding: 35px 25px;
+
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    
+}
+li a{
+    padding: 4px 63px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(162, 201, 162);
+    font-size: 35px;
+    
+
+}
+li a:hover{
+    color: rgb(185, 238, 106);
+}
+.active{
+    color: greenyellow;
+}
+.image{
+    margin: 3px 31px;
+    
+    
+    
+}
+.text{
+    
+    padding: 5px;
+    font-size: 6.5rem;
+    color: #21a51e;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 4px 4px rgb(185, 238, 106);
+   
+}
+
+.image .text{
+   
+    position: absolute;
+    z-index: 999;
+    margin: 0px auto;
+    left: -573px;
+    right: 0;
+    top: 50%;
+    width: 50%;
+}
+#text-1{
+    display: block;    
+    margin: 3px auto;
+    text-align: center;
+    height: 155px;
+    font-size: 7rem;
+}
+#text-2{
+    display: block;    
+    height: 155px;
+    text-align: center;
+
+}
+#text-3{
+    display: block;    
+    height: 155px;
+    text-align: center;
+
+
+}
+#text-4{
+    display: block;
+    height: 155px;    
+    text-align: center;
+}
+.location h4{
+    margin: 5px 31px;
+    font-size: 35px;
+    color: greenyellow;
+    font-weight: lighter;
+}
+.copyright p{
+    margin: 5px 31px;
+    font-size: 16px;
+    color: honeydew;
+}
+.icons{
+    display: inline-block;
+    position: absolute;
+    top: 73rem;
+    right: 31px;
+    
+    font-size: 35px;
+    padding: 0px 0px;
+    word-spacing: 20px;
+}
+
+.fa-facebook{
+    text-decoration: none;
+    color: greenyellow;
+    
+    
+}
+.fa-twitter{
+    text-decoration: none;
+    color: greenyellow;
+    
+}
+.fa-linkedin{
+    text-decoration: none;
+    color: greenyellow;
+    
+
+}
+.fa-google{
+    text-decoration: none;
+    color: greenyellow;
+    
+
+}
